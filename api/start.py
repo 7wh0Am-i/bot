@@ -8,7 +8,7 @@ async def start(update, context: ContextTypes.DEFAULT_TYPE):
         "📌 Available Commands:\n"
         "/num - Finds details linked to a 10-digit number.\n"
         "✨ Stay safe and respect privacy!\n"
-        "Owner: \n"
+        "Don't Use it for any illigal activity if you misused it Im not responsible for that. \n"
         "Follow me on Instagram: [Click here](username)",
         parse_mode='Markdown'
     )
