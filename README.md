@@ -1,0 +1,1 @@
+- its a paid bot and if any user misuses it. im not responsible for that.
