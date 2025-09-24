@@ -3,16 +3,16 @@ import json
 from telegram.ext import ContextTypes
 
 async def get_num(update, context: ContextTypes.DEFAULT_TYPE):
-    """ Fetch mobile information for the /num command """
+    """ Don't Use it for any illigal activity if you misused it Im not responsible for that. Fetch mobile information for the /num command """
     if not context.args:
         await update.message.reply_text(
-            "Please provide a 10-digit mobile number, e.g., /num 1234567890"
+            "Don't Use it for any illigal activity if you misused it Im not responsible for that.Please provide a 10-digit mobile number, e.g., /num 1234567890"
         )
         return
 
     mobile_number = context.args[0]
     if not (mobile_number.isdigit() and len(mobile_number) == 10):
-        await update.message.reply_text("Please provide a valid 10-digit mobile number.")
+        await update.message.reply_text("Don't Use it for any illigal activity if you misused it Im not responsible for that. Please provide a valid 10-digit mobile number.")
         return
 
     try:
